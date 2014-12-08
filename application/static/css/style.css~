@@ -1,0 +1,137 @@
+form#url {
+background: purple;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+padding: 20px;
+width: 400px;
+opacity:0.8;
+filter:alpha(opacity=80);
+
+}
+
+form#url fieldset {
+border: none;
+margin-bottom: 10px
+}
+form#url fieldset:last-of-type {
+margin-bottom: 0;
+}
+
+form#url label {
+float: left;
+font-size: 13px;
+width: 110px;
+}
+form#url fieldset fieldset label {
+background:none no-repeat left 50%;
+line-height: 20px;
+padding: 0 0 0 30px;
+width: auto;
+}
+form#url fieldset fieldset label:hover {
+cursor: pointer;
+}
+
+form#url input[type=button] {
+background: #384313;
+border: none;
+-moz-border-radius: 20px;
+-webkit-border-radius: 20px;
+-khtml-border-radius: 20px;
+border-radius: 20px;
+color: #ffffff;
+display: block;
+font: 18px Georgia, "Comic", Times, serif;
+letter-spacing: 1px;
+margin: auto;
+padding: 7px 25px;
+text-shadow: 0 1px 1px #000000;
+}
+form#url input[type=button]:hover {
+background: #1e2506;
+cursor: pointer;
+}
+
+form#url input:not([type=button]):focus{
+background: #eaeaea;
+}
+
+form#url legend, .results{
+color: white;
+font-size: 16px;
+font-weight: bold;
+padding-bottom: 10px;
+text-shadow: 0 1px 1px red;
+
+}
+
+form#url fieldset fieldset legend {
+color: #111111;
+font-size: 13px;
+font-weight: normal;
+padding-bottom: 0;
+}
+
+form#url div, div.results{
+background: #b9cf6a;
+background: rgba(255,255,255,.3);
+border-color: #e3ebc3;
+border-color: rgba(255,255,255,.6);
+border-style: solid;
+border-width: 2px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+line-height: 30px;
+list-style: none;
+padding: 5px 10px;
+margin-bottom: 2px;
+}
+
+html, body, h1, form, fieldset, legend{
+margin: 0;
+padding: 0;
+margin-left:auto;
+margin-right:auto;
+
+}
+
+#footer-container, #header-container {
+text-align:center;
+}
+#social-links {
+    float: right;
+}
+img.foot {
+    width: 40px;
+    height: 40px;
+}
+body {
+background-image:url("/static/images/colorful-background.jpg");
+}
+
+h1{
+color:black;
+font-size: 20px;
+font-weight: bold;
+padding-bottom: 10px;
+text-shadow: 0 1px 1px white;
+}
+
+#footer-container {
+font-size: 13px;
+padding-bottom: 10px;
+text-shadow: 0 1px 1px red;
+}
+
+.results{
+color: white;
+font-size: 13px;
+font-weight: bold;
+padding-bottom: 5px;
+text-shadow: 0 1px 1px red;
+
+}
+p{
+overflow:auto;

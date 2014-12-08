@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>URL Shortener</title>
+	<link rel="stylesheet" href="/static/css/style.css">
+	<script src="/static/js/libs/jquery-1.7.1.min.js"></script>
+	<script src="/static/js/url_shortener.js"></script>
+	<script>
+    		$SCRIPT_ROOT = {{ request.script_root|tojson|safe }};
+    	</script>
+	</head>
+	
+	<body>
+	<div id="header-container">
+	<h1>Replace your long url with a really short one. :-)</h1>
+	<br />
+	</div>
+	
+	<div id="main-container">
+	
+		<form id=url action="{{ url_for('create') }}" >
+		<fieldset>
+		<legend>Long URL Shortener</legend>
+		<label>Long URL:</label>
+		<div id=inputarea>
+		<input id=longurl type=text width=300px name=longUrl placholder="Place url here" >
+		<input id=shorten type=button value=Shorten > 
+		</fieldset>
+		<div id="blank">
+		</div>
+		</div>		
+		</form>
+	
+	</div>
+	
+	
+	
+	<div id="footer-container">
+	<footer class="wrapper">
+	<p><em>Created by Rhyann Stewart </em></p>
+	<p>©CopyRight 2012</p>
+	<p>COMP3180</p>
+	</footer>
+	<div id='social-links'>
+	<a href="http://www.facebook.com/"><img class='foot' src="/static/images/facebook.png" /></a>
+	<a href="http://www.twitter.com/"><img class='foot' src="/static/images/twitter.png" /></a>
+	</div>
+	</div>
+	</body>
+</html>
