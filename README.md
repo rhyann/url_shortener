@@ -1,4 +1,4 @@
-url_shortener
+URL Shortener
 =============
 
 URL shortener built using Flask
